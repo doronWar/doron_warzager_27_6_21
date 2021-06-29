@@ -1,0 +1,98 @@
+.Weather_wrapper{
+  display: grid;
+  place-items: center;
+  width: 100%;
+
+}
+
+.forecast_wrapper{
+  position: relative;
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: transparent;
+
+  width: 70vw;
+  height: 70vh;
+
+  & .forecast_body{
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+
+  }
+
+  & .top_forecast{
+    display: flex;
+    justify-content: space-between;
+
+
+    & .city_data{
+      display: flex;
+    }
+
+    & .fav_options{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height: 2rem;
+      margin: 1rem;
+      z-index: 2;
+      transition: all .2s ease-in-out;
+    }
+
+    .fav_options:hover{
+      transform: scale(1.2);
+      cursor: pointer
+    }
+
+    & .fav_btn{
+      background-color: transparent;
+      margin-left: 10px;
+      min-width: 227px;
+    }
+
+
+
+  }
+
+  & .bottom_forecast{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+
+    & .day_forecast{
+      display: grid;
+      place-items: center;
+      width: 15%;
+      height: 40%;
+      background-color: white;
+      z-index: 2;
+    }
+
+    & .forecast_icon{
+      width: 4rem;
+      height: 3rem;
+    }
+  }
+}
+
+.forecast_img{
+  background-image: url("../../assets/cloud.jpeg");
+  opacity: 0.2;
+  position: absolute;
+  top:0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+@media screen and (max-width: 600px) {
+  .forecast_wrapper{
+    width: 84vw;
+  }
+}

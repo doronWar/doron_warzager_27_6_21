@@ -1,0 +1,174 @@
+{
+  "Headline": {
+    "EffectiveDate": "2021-06-27T07:00:00+04:00",
+    "EffectiveEpochDate": 1624762800,
+    "Severity": 3,
+    "Text": "The heat wave will continue through Tuesday",
+    "Category": "heat",
+    "EndDate": "2021-06-29T19:00:00+04:00",
+    "EndEpochDate": 1624978800,
+    "MobileLink": "http://m.accuweather.com/en/az/tel/672520/extended-weather-forecast/672520?lang=en-us",
+    "Link": "http://www.accuweather.com/en/az/tel/672520/daily-weather-forecast/672520?lang=en-us"
+  },
+  "DailyForecasts": [
+    {
+      "Date": "2021-06-27T07:00:00+04:00",
+      "EpochDate": 1624762800,
+      "Temperature": {
+        "Minimum": {
+          "Value": 73,
+          "Unit": "F",
+          "UnitType": 18
+        },
+        "Maximum": {
+          "Value": 95,
+          "Unit": "F",
+          "UnitType": 18
+        }
+      },
+      "Day": {
+        "Icon": 6,
+        "IconPhrase": "Mostly cloudy",
+        "HasPrecipitation": false
+      },
+      "Night": {
+        "Icon": 34,
+        "IconPhrase": "Mostly clear",
+        "HasPrecipitation": false
+      },
+      "Sources": [
+        "AccuWeather"
+      ],
+      "MobileLink": "http://m.accuweather.com/en/az/tel/672520/daily-weather-forecast/672520?day=1&lang=en-us",
+      "Link": "http://www.accuweather.com/en/az/tel/672520/daily-weather-forecast/672520?day=1&lang=en-us"
+    },
+    {
+      "Date": "2021-06-28T07:00:00+04:00",
+      "EpochDate": 1624849200,
+      "Temperature": {
+        "Minimum": {
+          "Value": 74,
+          "Unit": "F",
+          "UnitType": 18
+        },
+        "Maximum": {
+          "Value": 92,
+          "Unit": "F",
+          "UnitType": 18
+        }
+      },
+      "Day": {
+        "Icon": 4,
+        "IconPhrase": "Intermittent clouds",
+        "HasPrecipitation": false
+      },
+      "Night": {
+        "Icon": 34,
+        "IconPhrase": "Mostly clear",
+        "HasPrecipitation": false
+      },
+      "Sources": [
+        "AccuWeather"
+      ],
+      "MobileLink": "http://m.accuweather.com/en/az/tel/672520/daily-weather-forecast/672520?day=2&lang=en-us",
+      "Link": "http://www.accuweather.com/en/az/tel/672520/daily-weather-forecast/672520?day=2&lang=en-us"
+    },
+    {
+      "Date": "2021-06-29T07:00:00+04:00",
+      "EpochDate": 1624935600,
+      "Temperature": {
+        "Minimum": {
+          "Value": 73,
+          "Unit": "F",
+          "UnitType": 18
+        },
+        "Maximum": {
+          "Value": 91,
+          "Unit": "F",
+          "UnitType": 18
+        }
+      },
+      "Day": {
+        "Icon": 4,
+        "IconPhrase": "Intermittent clouds",
+        "HasPrecipitation": false
+      },
+      "Night": {
+        "Icon": 34,
+        "IconPhrase": "Mostly clear",
+        "HasPrecipitation": false
+      },
+      "Sources": [
+        "AccuWeather"
+      ],
+      "MobileLink": "http://m.accuweather.com/en/az/tel/672520/daily-weather-forecast/672520?day=3&lang=en-us",
+      "Link": "http://www.accuweather.com/en/az/tel/672520/daily-weather-forecast/672520?day=3&lang=en-us"
+    },
+    {
+      "Date": "2021-06-30T07:00:00+04:00",
+      "EpochDate": 1625022000,
+      "Temperature": {
+        "Minimum": {
+          "Value": 72,
+          "Unit": "F",
+          "UnitType": 18
+        },
+        "Maximum": {
+          "Value": 87,
+          "Unit": "F",
+          "UnitType": 18
+        }
+      },
+      "Day": {
+        "Icon": 4,
+        "IconPhrase": "Intermittent clouds",
+        "HasPrecipitation": false
+      },
+      "Night": {
+        "Icon": 41,
+        "IconPhrase": "Partly cloudy w/ t-storms",
+        "HasPrecipitation": true,
+        "PrecipitationType": "Rain",
+        "PrecipitationIntensity": "Moderate"
+      },
+      "Sources": [
+        "AccuWeather"
+      ],
+      "MobileLink": "http://m.accuweather.com/en/az/tel/672520/daily-weather-forecast/672520?day=4&lang=en-us",
+      "Link": "http://www.accuweather.com/en/az/tel/672520/daily-weather-forecast/672520?day=4&lang=en-us"
+    },
+    {
+      "Date": "2021-07-01T07:00:00+04:00",
+      "EpochDate": 1625108400,
+      "Temperature": {
+        "Minimum": {
+          "Value": 70,
+          "Unit": "F",
+          "UnitType": 18
+        },
+        "Maximum": {
+          "Value": 86,
+          "Unit": "F",
+          "UnitType": 18
+        }
+      },
+      "Day": {
+        "Icon": 17,
+        "IconPhrase": "Partly sunny w/ t-storms",
+        "HasPrecipitation": true,
+        "PrecipitationType": "Rain",
+        "PrecipitationIntensity": "Moderate"
+      },
+      "Night": {
+        "Icon": 35,
+        "IconPhrase": "Partly cloudy",
+        "HasPrecipitation": false
+      },
+      "Sources": [
+        "AccuWeather"
+      ],
+      "MobileLink": "http://m.accuweather.com/en/az/tel/672520/daily-weather-forecast/672520?day=5&lang=en-us",
+      "Link": "http://www.accuweather.com/en/az/tel/672520/daily-weather-forecast/672520?day=5&lang=en-us"
+    }
+  ]
+}

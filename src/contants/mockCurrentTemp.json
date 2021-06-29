@@ -1,0 +1,25 @@
+[
+  {
+    "LocalObservationDateTime": "2021-06-27T22:05:00+04:00",
+    "EpochTime": 1624817100,
+    "WeatherText": "Mostly clear",
+    "WeatherIcon": 34,
+    "HasPrecipitation": false,
+    "PrecipitationType": null,
+    "IsDayTime": false,
+    "Temperature": {
+      "Metric": {
+        "Value": 24.8,
+        "Unit": "C",
+        "UnitType": 17
+      },
+      "Imperial": {
+        "Value": 77,
+        "Unit": "F",
+        "UnitType": 18
+      }
+    },
+    "MobileLink": "http://m.accuweather.com/en/az/tel/672520/current-weather/672520?lang=en-us",
+    "Link": "http://www.accuweather.com/en/az/tel/672520/current-weather/672520?lang=en-us"
+  }
+]

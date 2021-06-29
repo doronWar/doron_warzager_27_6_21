@@ -1,0 +1,90 @@
+.header_wrapper{
+  position: relative;
+  z-index: 3;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: .5rem;
+  padding-right: .5rem;
+  border-bottom: 1px solid black;
+}
+
+.header_btns_wrapper{
+  display: flex;
+}
+
+.menu_body{
+  position: absolute;
+  bottom: -6rem;
+  right: 0;
+}
+
+.sacle_wrapper{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: .5rem;
+}
+.sacle_Toggle_wrapper{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  //padding: 1rem;
+  width: 10rem;
+}
+
+.menu_wrapper{
+  position: relative;
+  width: 2rem;
+  margin-top: .5rem;
+  margin-left: 0.5rem;
+}
+
+.header_logo{
+  display: flex;
+  align-items: center;
+  & .logo{
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+  & .logo_text{
+    font-size: 20px;
+    margin-left: 10px;
+  }
+}
+
+.header_logo:hover{
+  cursor: pointer
+}
+
+
+// menu UI
+.center {
+
+  position: absolute;
+  top: 0.7rem;
+  left: 0.7rem;
+  transform: translate(-50%, -50%);
+  width: 2rem;
+}
+
+.center:before,
+.center:after,
+.center div {
+  background: rgba(0, 0, 0, 0.7);
+  content: "";
+  display: block;
+  height: 6px;
+  border-radius: 3px;
+  margin: 7px 0;
+  transition: 0.5s;
+}
+.menu_open:before {
+  transform: translateY(12px) rotate(135deg);
+}
+.menu_open:after {
+  transform: translateY(-12px) rotate(-135deg);
+}
+.menu_open div {
+  transform: scale(0);
+}

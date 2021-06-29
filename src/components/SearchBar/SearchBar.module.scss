@@ -1,0 +1,23 @@
+.search_bar_wrapper{
+  display: grid;
+  place-items: center;
+  width: 100%;
+}
+.search_bar_body{
+  position: relative;
+  width: 100%;
+}
+.input_wrapper{
+  width: 50%;
+  margin-left: 25% !important;
+}
+
+.suggestions_wrapper{
+  width: 50%;
+  position: absolute;
+  top: 4rem;
+  left:25%;
+  z-index: 5;
+  background-color: white;
+
+}
