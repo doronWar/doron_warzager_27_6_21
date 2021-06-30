@@ -32,7 +32,7 @@ export const getCityByLongLat = createAsyncThunk(
     'city/long-lat',
     async (position) => {
 
-        const url = `http://dataservice.accuweather.com/locations/v1/cities/geoposition/search?apikey=${process.env.REACT_APP_WEATHER_KEY}&q=${position.coords.latitude}%2C%20${position.coords.longitude}`
+        const url = `https://dataservice.accuweather.com/locations/v1/cities/geoposition/search?apikey=${process.env.REACT_APP_WEATHER_KEY}&q=${position.coords.latitude}%2C%20${position.coords.longitude}`
         return makeRequest(url, "getCityByLongLat")
         // return Promise.resolve()
     }
@@ -41,7 +41,7 @@ export const getCityByLongLat = createAsyncThunk(
 export const getCityOptionsAsync = createAsyncThunk(
     'city/autocomplete/fetchOptions',
     async (str) => {
-        const url = `http://dataservice.accuweather.com/locations/v1/cities/autocomplete?apikey=${process.env.REACT_APP_WEATHER_KEY}&q=${str}`
+        const url = `https://dataservice.accuweather.com/locations/v1/cities/autocomplete?apikey=${process.env.REACT_APP_WEATHER_KEY}&q=${str}`
         return makeRequest(url, "getCityOptionsAsync")
         // return Promise.resolve()
     }
@@ -50,7 +50,7 @@ export const getCityOptionsAsync = createAsyncThunk(
 export const getWeatherForecastAsync = createAsyncThunk(
     'weather/fetchForecast',
     async (key) => {
-        const url = `http://dataservice.accuweather.com/forecasts/v1/daily/5day/${key}?apikey=${process.env.REACT_APP_WEATHER_KEY}`
+        const url = `https://dataservice.accuweather.com/forecasts/v1/daily/5day/${key}?apikey=${process.env.REACT_APP_WEATHER_KEY}`
         return makeRequest(url, "getWeatherForecastAsync")
         // return Promise.resolve()
 
@@ -60,7 +60,7 @@ export const getWeatherForecastAsync = createAsyncThunk(
 export const getCurrentTempAsync = createAsyncThunk(
     'weather/fetchCurrentTemp',
     async (key) => {
-        const url = `http://dataservice.accuweather.com/currentconditions/v1/${key}?apikey=${process.env.REACT_APP_WEATHER_KEY}`
+        const url = `https://dataservice.accuweather.com/currentconditions/v1/${key}?apikey=${process.env.REACT_APP_WEATHER_KEY}`
         return makeRequest(url, "getCurrentTempAsync")
         // return Promise.resolve()
 
